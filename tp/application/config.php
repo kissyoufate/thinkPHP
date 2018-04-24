@@ -40,8 +40,10 @@ return [
     'var_jsonp_handler'      => 'callback',
     // 默认时区
     'default_timezone'       => 'PRC',
+    //语言包列表 2018年4月24日22:13:30
+    'lang_list' => ['zh-cn','en-us'],
     // 是否开启多语言
-    'lang_switch_on'         => false,
+    'lang_switch_on'         => true,
     // 默认全局过滤方法 用逗号分隔多个
     'default_filter'         => '',
     // 默认语言
